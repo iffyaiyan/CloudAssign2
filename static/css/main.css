@@ -1,0 +1,24 @@
+/* Custom styles for Product Catalogue app */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Image preview styles for add product form */
+#imagePreview {
+    max-height: 200px;
+    max-width: 100%;
+    margin-top: 10px;
+    display: none;
+}
